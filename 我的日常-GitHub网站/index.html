@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="记录生活里值得记住的小事。">
+  <title>我的日常</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@500;600;700&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="返回首页">
+      <span class="brand-mark">日</span>
+      <span id="brand-title">我的日常</span>
+    </a>
+    <button class="menu-button" aria-label="打开菜单" aria-expanded="false">菜单</button>
+    <nav>
+      <a href="#stories">日常</a>
+      <a href="#album">相册</a>
+      <a href="#about">关于我</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow" id="eyebrow">生活存档 · 从今天开始</p>
+        <h1 id="hero-title">把普通的日子，<br><em>认真收藏。</em></h1>
+        <p class="intro" id="intro">这里记录散步时的风、吃到的好东西，以及每一个想留住的瞬间。</p>
+        <a class="primary-button" href="#stories">翻翻最近的日子 <span>↓</span></a>
+      </div>
+      <div class="date-card" aria-label="今日日期">
+        <div class="sun"></div>
+        <p class="date-label">TODAY</p>
+        <strong id="date-day">30</strong>
+        <span id="date-month">JUL · 2026</span>
+        <p class="weather-line">愿今天也有小小的好事发生。</p>
+      </div>
+    </section>
+
+    <section class="section" id="stories">
+      <div class="section-heading">
+        <div><p class="eyebrow">RECENT STORIES</p><h2>最近的日子</h2></div>
+        <p>不追赶什么，只是如实记录。</p>
+      </div>
+      <div class="story-grid" id="story-grid"></div>
+    </section>
+
+    <section class="quote">
+      <span>“</span>
+      <p id="quote">所谓生活，不过是一个又一个值得被记住的今天。</p>
+    </section>
+
+    <section class="section" id="album">
+      <div class="section-heading">
+        <div><p class="eyebrow">PHOTO NOTES</p><h2>光影相册</h2></div>
+        <p>一些没有写进文字里的瞬间。</p>
+      </div>
+      <div class="photo-grid" id="photo-grid"></div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="about-number">01</div>
+      <div>
+        <p class="eyebrow">ABOUT THIS PLACE</p>
+        <h2>你好，这里是我的<br>生活小站。</h2>
+      </div>
+      <p id="about-text">我想把时间走过的痕迹留在这里。不需要多么精彩，只希望许多年后再回来，还能想起那天的天气和心情。</p>
+    </section>
+  </main>
+
+  <footer>
+    <span id="footer-title">我的日常</span>
+    <p>慢慢记录，慢慢生活。</p>
+    <a href="https://app.pagescms.org" target="_blank" rel="noopener">进入我的写作后台 ↗</a>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
