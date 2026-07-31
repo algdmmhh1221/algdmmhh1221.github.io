@@ -1,7 +1,46 @@
 [
   {
-    "date": "2026.07.28"
+    "date": "2026-07-30",
+    "drawer": "夏天",
+    "mood": "轻松",
+    "weather": "晚风",
+    "body": "傍晚绕着熟悉的小路走了一圈。没有发生什么特别的事，但云被落日染成了温柔的橘色。",
+    "quote": "普通的一天，也可以被认真收藏。",
+    "cover": "https://images.unsplash.com/photo-1490730141103-6cac27aaab94?auto=format&fit=crop&w=1000&q=85",
+    "tags": ["散步", "黄昏"],
+    "photos": []
   },
-  {},
-  {}
+  {
+    "date": "2026-07-26",
+    "drawer": "吃过的东西",
+    "mood": "满足",
+    "weather": "很热",
+    "body": "冰凉的绿豆汤，窗外的蝉鸣，还有被水汽打湿的玻璃杯。\n今天的快乐很具体。",
+    "quote": "",
+    "cover": "",
+    "tags": ["夏天", "绿豆汤"],
+    "photos": [{"src": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85", "caption": "今天的味道"}]
+  },
+  {
+    "date": "2026-07-21",
+    "drawer": "暂时不整理",
+    "mood": "安静",
+    "weather": "雨",
+    "body": "没有完成很多事情，但认真看完了一场雨。\n允许生活偶尔没有结论。",
+    "quote": "",
+    "cover": "",
+    "tags": ["下雨", "慢下来"],
+    "photos": []
+  },
+  {
+    "date": "2026-07-15",
+    "drawer": "喜欢的瞬间",
+    "mood": "开心",
+    "weather": "晴",
+    "body": "阳光落在窗边的植物上，叶子亮得像刚刚被擦过。",
+    "quote": "光会替我们记住一些事情。",
+    "cover": "https://images.unsplash.com/photo-1497250681960-ef046c08a56e?auto=format&fit=crop&w=1000&q=85",
+    "tags": ["植物", "阳光"],
+    "photos": []
+  }
 ]
