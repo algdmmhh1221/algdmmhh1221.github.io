@@ -1,0 +1,60 @@
+media:
+  input: media
+  output: /media
+
+content:
+  - name: site
+    label: 网站设置
+    type: file
+    path: data/site.json
+    format: json
+    fields:
+      - name: title
+        label: 网站名称
+        type: string
+      - name: eyebrow
+        label: 首页小标题
+        type: string
+      - name: intro
+        label: 首页介绍
+        type: text
+      - name: quote
+        label: 中间寄语
+        type: text
+      - name: about
+        label: 关于我
+        type: rich-text
+
+  - name: posts
+    label: 日常记录
+    type: file
+    path: data/posts.json
+    format: json
+    list: true
+    fields:
+      - name: date
+        label: 日期
+        type: string
+      - name: category
+        label: 分类
+        type: string
+      - name: title
+        label: 标题
+        type: string
+      - name: excerpt
+        label: 正文
+        type: text
+
+  - name: photos
+    label: 相册
+    type: file
+    path: data/photos.json
+    format: json
+    list: true
+    fields:
+      - name: src
+        label: 照片网址
+        type: string
+      - name: caption
+        label: 照片说明
+        type: string
