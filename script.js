@@ -22,7 +22,7 @@ async function loadData(){
   document.getElementById("intro").textContent=data.site.intro;
   document.getElementById("quote").textContent=data.site.quote;
   document.getElementById("about-text").textContent=data.site.about;
-  document.getElementById("story-grid").innerHTML=data.posts.map(p=>`<article class="story"><div class="meta"><span>${p.date}</span><span>${p.category}</span></div><h3>${p.title}</h3><p>${p.excerpt}</p><span class="read">记住这一天 →</span></article>`).join("");
+  document.getElementById("story-grid").innerHTML=data.posts.map(p=>`<article class="story no-title"><div class="meta"><span>${p.date}</span><span>${p.category}</span></div><p>${p.excerpt}</p><span class="read">记住这一天 →</span></article>`).join("");
   document.getElementById("photo-grid").innerHTML=data.photos.map(p=>`<figure class="photo"><img src="${p.src}" alt="${p.caption}" loading="lazy"><span>${p.caption}</span></figure>`).join("");
 }
 const now=new Date();document.getElementById("date-day").textContent=String(now.getDate()).padStart(2,"0");document.getElementById("date-month").textContent=now.toLocaleDateString("en-US",{month:"short",year:"numeric"}).toUpperCase();
